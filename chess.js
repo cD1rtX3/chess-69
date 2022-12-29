@@ -13,6 +13,6 @@ for (let i = 0; i < size[0]; i++) {
 		} else {
 			b.fillStyle = "#99D" // Light square
 		}
+		b.fillRect(240*i, 240*j, 240, 240)
 	}
-	b.fillRect(240*i, 240*j, 240, 240)
 }
