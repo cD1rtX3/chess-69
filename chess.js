@@ -2,7 +2,7 @@
 const canvas = document.getElementById("board")
 const b = canvas.getContext("2d")
 var size = [8, 8]
-b.scale(420/(240*size[0]), 420/(240*size[1]))
+b.scale(300/(240*size[0]), 150/(240*size[1]))
 
 // Light and dark squares
 let squares = [[]]
