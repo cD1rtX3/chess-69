@@ -9,7 +9,7 @@ let squares = [[]]
 for (let i = 0; i < size[0]; i++) {
 	for (let j = 0; j < size[1]; j++) {
 		if (((size[0]-i)+(size[1]-j))%2) {
-			b.fillStyle = "#44B" // Dark square
+			b.fillStyle = "#77C" // Dark square
 		} else {
 			b.fillStyle = "#99D" // Light square
 		}
