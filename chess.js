@@ -1,6 +1,6 @@
 // Instantiating the board
-var canvas = document.getElementById("board")
-var b = canvas.getContext("2d")
+const canvas = document.getElementById("board")
+const b = canvas.getContext("2d")
 var size = [8, 8]
 b.scale(420/(240*size[0]), 420/(240*size[1]))
 
