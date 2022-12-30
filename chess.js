@@ -16,3 +16,19 @@ for (let i = 0; i < size[0]; i++) {
 		b.fillRect(240*i, 240*j, 240, 240)
 	}
 }
+
+// Piece class
+class Piece {
+	img; x; y
+	constructor (p, x, y) { // TODO add moveset, captureset
+		this.img = new Image(240, 240)
+		this.img.src = "./img/" + p + ".png"
+		this.x = x * 240
+		this.y = y * 240
+	}
+}
+
+// Piece test
+var pp = []
+pp[0] = new Piece("bR", 0, 0)
+b.drawImage(pp[0].img, pp[0].x, pp[0].y)
