@@ -43,3 +43,12 @@ var board = [
 	[ p[8],  p[9], p[10], p[11], p[12], p[13], p[14], p[15]],
 	[p[24], p[25], p[26], p[27], p[28], p[29], p[30], p[31]]
 ]
+
+// Draw pieces
+for (let i = 0; i < 8; i++) {
+    for (let j = 0; j < 8; j++) {
+        if (board[j][i]) {
+            b.drawImage(board[j][i].img, 240*i, 240*j)
+        }
+    }
+}
