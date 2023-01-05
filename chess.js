@@ -1,4 +1,4 @@
-document.body.addEventListener("load", function(e){
+document.addEventListener("load", function(e){
 	// Instantiating the board
 	const canvas = document.getElementById("board")
 	const b = canvas.getContext("2d")
